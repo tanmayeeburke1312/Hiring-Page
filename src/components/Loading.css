@@ -1,0 +1,79 @@
+.long-div {
+    height: 500px; /* Adjust height as needed */
+    
+    background-image: url('./images/back.png'); /* Path to your image */
+
+    /* background-image: linear-gradient(315deg, #f1f2f6 0%, #c9c6c6 74%); */
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 5px;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text inside the container */
+     margin-top: -20px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center; 
+
+  }
+  
+  .three-cards {
+    display: flex;
+    justify-content: space-around; /* Distributes space between the cards evenly */
+    align-items: center; /* Aligns items vertically in the center */
+    margin-top: 2rem;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff; /* Card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for some depth */
+    padding: 1rem;
+    flex: 1; /* Makes the cards take up equal space */
+    margin: 0 0.5rem; /* Margin between cards */
+    text-align: center; /* Center-align text/content inside the card */
+    height: 170px; /* Adjust height as needed */
+    margin-left: 50px;
+  }
+  
+  .card:first-child {
+    margin-left: 0;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 16px rgba(159, 235, 159, 0.7); /* Green shadow on hover */
+  }
+  .card:last-child {
+    margin-right: 0;
+  }
+ 
+.long-div h1{
+  padding-top:300px ;
+}
+  .long-div p{
+    color: #555;
+    padding-top: px;
+  }
+
+  .card h2{
+    color: green;
+    font-size: 1.2rem;
+    margin-left: 10px;
+  }
+
+  .card p {
+    font-size: 0.875rem; /* Adjust as needed for smaller text */
+    color: #555; /* Adjust color as needed */
+  }
+  
+  .footer {
+    height: 40px;
+    width:1500px;
+    background-color:#d1faa8;
+  }
+  .items{
+    margin-left: 60px;
+    margin-top: 60px;
+  }

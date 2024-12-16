@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+  color: #000; /* Change to black to make the text visible on a white background */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px; /* Adjust the size as needed */
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 5px;
+  margin-top: 6px;
+}
+
+.nav-item {
+  margin-left: 1rem;
+  margin-top: 0.4rem;
+  font-size: small;
+  font-weight: bold;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;  
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: rgb(50, 218, 50);
+  border-color: #fff;
+  border-radius: 10%;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(34, 179, 34); /* Slightly darker green on hover */
+}
